@@ -1,6 +1,5 @@
 # The-Mondrian-Test
-## This is a coding challenge I recieved. The challenge was to: 
-### Build a page/app with the following:
+## This is a coding challenge I received, the challenge was to build a page/app with the following:
 * 6 rows of 10 squares that fill the entire width of the screen
 * Each square contains 2 rectangles
 * The rectangles in the squares alternate between horizontal and vertical
