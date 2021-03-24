@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+td::after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+
+.leftDiv, .rightDiv {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.rightDiv {
+    right: 0;
+}
+
+.topDiv, .bottomDiv {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+}
+
+.bottomDiv {
+    bottom: 0;
+}
